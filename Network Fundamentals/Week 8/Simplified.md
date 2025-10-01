@@ -1,0 +1,3 @@
+**Simplified**
+
+IP (Internet Protocol) is designed to deliver a packet from a source to a destination across one or more networks. At the data link layer (Layer 2), switches handle traffic within a single network by checking devices’ MAC addresses, referencing the MAC address table, and forwarding data to the correct port. In contrast, the network layer (Layer 3) uses IP addresses to ensure packets are sent from a device in one network to a device in another network.

@@ -1,0 +1,5 @@
+The **minimum** Ethernet frame size is **64 bytes** and the expected **maximum** is **1518 bytes.** This includes all bytes from the **destination MAC address** field through the frame check sequence **(FCS)** field. **The preamble field is not included when describing the size of the frame.**
+
+Any frame less than 64 bytes in length is considered a “collision fragment” or “runt frame” and is automatically discarded by receiving stations. Frames with more than 1500 bytes of data are considered “jumbo” or “baby giant frames”.
+
+**If the size of a transmitted frame is less than the minimum, or greater than the maximum, the receiving device drops the frame.** Dropped frames are likely to be the result of collisions or other unwanted signals. They are considered invalid. **Jumbo frames are usually supported by most Fast Ethernet and Gigabit Ethernet switches and NICs.****![[Screenshot 2025-09-17 at 20-46-10 Cisco Networking Academy NETWORK FUNDAMENTALS (CET1600C - Fall 2025).png]]

@@ -1,0 +1,2 @@
+
+![[Screenshot 2025-08-29 at 16-12-36 Cisco Networking Academy NETWORK FUNDAMENTALS (CET1600C - Fall 2025).png]]**Note:** Whereas the TCP/IP model layers are referred to only by name, the seven OSI model layers are more often referred to by number rather than by name. For instance, the physical layer is referred to as Layer 1 of the OSI model, data link layer is Layer2, and so on.

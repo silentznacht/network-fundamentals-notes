@@ -1,0 +1,251 @@
+{
+  "main": {
+    "id": "9b64052e417f22c7",
+    "type": "split",
+    "children": [
+      {
+        "id": "ee800551995b6ae4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "35ed6971924c238e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Infrastructure/RAID.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "RAID"
+            }
+          },
+          {
+            "id": "674d094e87aa85fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Infrastructure/Week6/Identifying and Installing IO Peripheral Devices.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Identifying and Installing IO Peripheral Devices"
+            }
+          },
+          {
+            "id": "17783e5df173bcb2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Network Fundamentals/Week 8/How a Host Routes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "How a Host Routes"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fe76fe5a12f0cef9",
+    "type": "split",
+    "children": [
+      {
+        "id": "726e968adf6af719",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d50d4cfa98a3709d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "a42f802b4088218f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "696e243b43522e3f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "0e14aa1c9d2bc145",
+    "type": "split",
+    "children": [
+      {
+        "id": "c177bb6e0d5f98bb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "db3f31f5f13a8fae",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Computer Infrastructure/Week 4/Processors and Memory/Untitled.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Untitled"
+            }
+          },
+          {
+            "id": "e80adbbecb4d5ffe",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Network Fundamentals/Protocols & Models/Protocol Functions.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Protocol Functions"
+            }
+          },
+          {
+            "id": "7186aea46adbac74",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "41a478be748ae3f4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Network Fundamentals/Protocols & Models/Protocol Functions.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Protocol Functions"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "17783e5df173bcb2",
+  "lastOpenFiles": [
+    "https:/github.com/silentznacht/network-fundamentals-notes.git",
+    "https:/github.com/silentznacht",
+    "https:/github.com",
+    "https:",
+    "Network Fundamentals/Week 8/Network Layer Charactistics.md",
+    "Network Fundamentals/Week 8/Defintions.md",
+    "Network Fundamentals/Week 8/Simplified.md",
+    "Network Fundamentals/Week 8/How a Host Routes.md",
+    "Network Fundamentals/Week 8/Headers.md",
+    "Network Fundamentals/Week 8/IPv6.md",
+    "Network Fundamentals/Week 8/IPv4.md",
+    "Network Fundamentals/Week 8/Characteristics of IP.md",
+    "Course Images/Screenshot 2025-09-30 at 18-59-17 Cisco Networking Academy NETWORK FUNDAMENTALS (CET1600C - Fall 2025).png",
+    "Computer Infrastructure/Week6/I0 devices.md",
+    "Network Fundamentals/Week 8",
+    "Computer Infrastructure/Week6/Supporting the Video Subsystem.md",
+    "Computer Infrastructure/Week6/Replacing Expansion Cards in a Laptop.md",
+    "Course Images/74161_ch06_34-t2.png",
+    "Course Images/74161_ch06_33-t2.jpg",
+    "Course Images/74161_ch06_32-t2.jpg",
+    "Computer Infrastructure/Week6/Capture Cards.md",
+    "Course Images/74161_ch06_29-t2.jpg",
+    "Computer Infrastructure/Week6/Sound Cards and Onboard Sound.md",
+    "Computer Infrastructure/Week6/Installing and Configuring Adapter Cards.md",
+    "Computer Infrastructure/Quick.md",
+    "Course Images/IMG_0605.jpg",
+    "Computer Infrastructure/Week6/Identifying and Installing IO Peripheral Devices.md",
+    "Computer Infrastructure/RAID.md",
+    "Computer Infrastructure/Week6",
+    "Untitled",
+    "Computer Infrastructure/Week 4/Processors and Memory/Types and Characteristics of Processors.md",
+    "Computer Infrastructure/Week 4/Processors and Memory/Untitled.md",
+    "Network Fundamentals/Week 4/Physical Layer/Wireless Media/Types of Wireless Media.md",
+    "Network Fundamentals/Week 6/Random Terms.md",
+    "Network Fundamentals/Week 6/Frame Forwarding Methods/Methods.md",
+    "Network Fundamentals/Week 6/Frame Forwarding Methods/Duplex and Speed Settings.md",
+    "Network Fundamentals/Week 6/Frame Forwarding Methods/Memory Buffering On Switching.md",
+    "Network Fundamentals/Week 6/Frame Forwarding Methods/Cut-Through Switching.md",
+    "Course Images/Screenshot 2025-09-19 at 19-12-35 Cisco Networking Academy NETWORK FUNDAMENTALS (CET1600C - Fall 2025).png",
+    "Network Fundamentals/Week 6/Buffering",
+    "Network Fundamentals/Week 6/Frame Forwarding Methods/Methods",
+    "Network Fundamentals/Week 6/Frame Forwarding Methods",
+    "Network Fundamentals/Week 6/Ethernet MAC",
+    "Course Images/Screenshot 2025-09-17 at 20-46-10 Cisco Networking Academy NETWORK FUNDAMENTALS (CET1600C - Fall 2025).png",
+    "Course Images/Screenshot 2025-09-17 at 20-34-55 Cisco Networking Academy NETWORK FUNDAMENTALS (CET1600C - Fall 2025).png",
+    "Course Images/Screenshot 2025-09-17 at 19-59-38 Cisco Networking Academy NETWORK FUNDAMENTALS (CET1600C - Fall 2025).png",
+    "Untitled.canvas"
+  ]
+}

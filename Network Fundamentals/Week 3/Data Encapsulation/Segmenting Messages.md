@@ -1,0 +1,3 @@
+When data is sent across a network, it isn’t transmitted as one big stream because that would cause delays and failures if something went wrong. Instead, the data is broken down into smaller chunks called **segments**, which are placed into **packets**. Each packet can travel separately across the network, even taking different paths, before being reassembled at the destination. This process, called **segmentation**, makes communication **faster** (because multiple conversations can share the same network at once, like multiplexing) and more **efficient** (since only lost packets need to be resent, not the whole message).
+
+Want me to shrink it even further into just a few sentences for flashcard-style studying?

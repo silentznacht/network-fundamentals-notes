@@ -1,0 +1,3 @@
+**User Datagram Protocol (UDP) ->** UDP is a communication protocol, used in computer networks that allows for fast connectionless data transmission. Unlike **TCP/IP**, UDP does not establish a connection before sending data and is not guarentee delivery, order or error checking of packets.
+	- This makes **UDP** more efficent for applications where speed is critical and data loss is acceptable, such as live video streaming, online gaming or voice over IP services.
+	- While its less reliable than **TCP**, **UDP**'s simplicity and low overhead make it ideal for real-time applications where performance is more important than accuracy.
