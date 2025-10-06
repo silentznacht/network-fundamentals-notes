@@ -1,0 +1,7 @@
+
+- When the destination IPv4 address is not on the same network as the source IPv4 address, the source device needs to send the frame to its default gateway. This is the interface of the local router. 
+	- Whenever a source device has a packet with an IPv4 address on another network, it will encapsulate that packet in a frame using the destination MAC address of the router.
+
+- **The IPv4 address of the default gateway is stored in the IPv4 configuration of the hosts.** When a host creates a packet for a destination, it compares the destination IPv4 address and its own IPv4 address to determine if the two IPv4 addresses are located on the same Layer 3 network. **If the destination host is not on its same network, the source checks its ARP table for an entry with the IPv4 address of the default gateway.** If there is not an entry, it uses the ARP process to determine a MAC address of the default gateway.
+	- In short, when a host creates a IPv4 packet, it compares it's own IPv4 address and the destination devices IPv4 address to determine if they are in the same network/subnet.
+		- If not it will check its ARP table, for an entries / maps that match the IPv4 address to a already recorded MAC address, if that is not successfuly it will send this packet to the default gateway (router) and the router will send it to the network that owns the destination devices IPv4 and that it is under.

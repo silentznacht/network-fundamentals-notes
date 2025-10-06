@@ -1,0 +1,5 @@
+
+- When a packet is sent to the data link layer to be encapsulated into an Ethernet frame, the device refers to a table in its memory to find the MAC address that is mapped to the IPv4 address. This table is stored temporarily in RAM memory and called the ARP table or the ARP cache
+	- When a host needs to send data to another device, it must know the destination device’s MAC address. The host first checks its **ARP table**—a temporary list in RAM that maps IP addresses to MAC addresses. If the MAC address for the destination IP is already in the table, the host uses it to send the Ethernet frame. If not, the host sends an **ARP broadcast** asking which device has that IP address. The destination device responds with its MAC address, which the host then stores in the ARP table for future use, reducing the need for repeated broadcasts.
+	
+- Each entry, or row, of the ARP table binds an IPv4 address with a MAC address. We call the relationship between the two values a map. This simply means that you can locate an IPv4 address in the table and discover the corresponding MAC address. The ARP table temporarily saves (caches) the mapping for the devices on the LAN.
