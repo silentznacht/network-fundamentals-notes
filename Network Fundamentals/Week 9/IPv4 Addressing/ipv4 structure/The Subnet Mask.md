@@ -1,3 +1,5 @@
+- Simplified - A subnet mask is used to identify the network and host portion of an IPv4 address. Each 255 repersents an octet of locked bits meaning it cannot vary or change, while 0 means it varies, for example 168.92.6.19 with the subnet mask of 255.255.0.0 means that 168.92 cannot change, their octets / bits are locked, meaning this is the network portion of the address, which is used to identify the network address ie the network the device/host is on, while 6.19 is the host portion that identifies where the device is in the network.
+
 - **IPv4 address** - This is the unique IPv4 address of the host.
 - **Subnet mask**- This is used to identify the network/host portion of the IPv4 address.
 

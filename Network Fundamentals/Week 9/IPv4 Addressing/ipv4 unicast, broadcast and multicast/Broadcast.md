@@ -1,3 +1,17 @@
+Simplified - Just to save the headache lol, there are two kinds of broadcasts in a network, limited broadcast means data reaches the entire subnet or network, while directed just means your sending your data to be broadcasted to all the host another network ie remote network. 
+- **Limited Broadcast** → The data is sent to **all hosts within the same subnet** or local network.
+    
+    - Uses the address `255.255.255.255`.
+        
+    - It **does not leave** the local network (routers block it).
+        
+- **Directed Broadcast** → The data is sent **to all hosts in a different (remote) subnet**.
+    
+    - Uses the **broadcast address of that remote network**, like `192.168.5.255`.
+        
+    - The router forwards it to the target network, where it’s then broadcasted to all hosts there.
+
+
 Broadcast transmission refers to a device sending a message to all the devices on a network in one-to-all communications. A broadcast packet has a destination IP address with all ones (1s) in the host portion, or 32 one (1) bits.
 
 **Note:** IPv4 uses broadcast packets. However, there are no broadcast packets with IPv6.

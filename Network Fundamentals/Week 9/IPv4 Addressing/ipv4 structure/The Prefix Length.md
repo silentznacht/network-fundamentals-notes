@@ -1,3 +1,4 @@
+Simplified - The amount of bits locked in subnetmask ie 255.255.255.0 = 24 locked bits ~ each locked octet equals 8 locked bits 
 
 Expressing network addresses and host addresses with the dotted decimal subnet mask address can become cumbersome. Fortunately, there is an alternative method of identifying a subnet mask, a method called the prefix length.
 

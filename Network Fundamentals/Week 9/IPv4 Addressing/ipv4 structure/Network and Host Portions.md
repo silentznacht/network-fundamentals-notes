@@ -11,6 +11,5 @@
 		- **Operating System Alerts**
 		    - Most modern OSes detect IP conflicts and will display a warning like:  _“Another device on the network has the same IP address.”_
 		    - The OS may stop using that IP until it’s fixed.
-        
 		- **Routing Problems (for routers and gateways)**
 		    - If one of the conflicting IPs is a default gateway, the LAN can experience broader communication issues.
