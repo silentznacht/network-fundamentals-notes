@@ -1,0 +1,32 @@
+
+**Recall that a client computer contacts a server in order to request information or perform a task, such as when a web browser connects with a web server and requests a webpage**. Many other types of server resources exist on a typical network. **A server application might be installed on a computer as a stand-alone application or embedded as firmware in other network devices such as a router. (A router is a device that manages traffic between two or more networks and can help find the best path for traffic to get from one network to another. You learn more about routers later in this module.)**
+
+- **Web server.** A web server serves up webpages to clients. Many corporations have their own web servers, which are available privately on the corporate network. Other web servers are public, accessible from anywhere on the Internet. The most popular web server applications are Apache (see [apache.org](http://apache.org)) and Nginx _(_[nginx.org](http://nginx.org)_)_. The most popular OSs for running a web server are UNIX and Linux. A web server uses the following ports and protocols:
+    
+    - **Port 80.** HTTP (Hypertext Transfer Protocol) is used by a browser and web server for unsecured communication. You can see when a browser is using this protocol by looking for “http” at the beginning of a URL in the address bar, such as [http://www.microsoft.com](http://www.microsoft.com). The web server listens at port 80.
+    
+    - **Port 443.** HTTPS (HTTP secure) refers to the HTTP protocol working with a security protocol such as Secure Sockets Layer (SSL) or Transport Layer Security (TLS) to create a secured socket. **(TLS is better than SSL.) A socket is a connection between a browser and web server. HTTPS is used by web browsers and servers to secure the socket by encrypting the data before it is sent and then decrypting it on the receiving end before the data is processed.** To know a secured protocol is being used, look for “https” in the URL, as in [https://www.wellsfargo.com](https://www.wellsfargo.com). Most websites today use secure protocols.
+    
+- **Mail server.** Email is a client/server application that involves two mail servers, one to send the mail and another to deliver an email message to a client app. A mail server uses the following ports and protocols:
+	- **Port 25.** SMTP (Simple Mail Transfer Protocol) is used to send an email message to its destination (see Figure 7-10). The email server that takes care of sending email messages (using the SMTP protocol) is often referred to as the SMTP server. The SMTP server listens at port 25.
+	- **Port 110 or port 143.** After an email message arrives at the destination email server, it remains there until the recipient requests delivery. The recipient’s email server uses one of two protocols to deliver the message: POP3 (Post Office Protocol, version 3) or IMAP (Internet Mail Access Protocol). Using POP3, email is downloaded to the client computer, and unless the default setting is changed, the email is then deleted from the email server. The client requests email from a POP3 server listening at port 110. Using IMAP, the client application manages the email while it is still stored on the server. An IMAP server listens at port 143.
+
+- **File server.** A file server, also called a file share server, stores files and makes them available to other computers. Windows uses the Server Message Block (SMB) protocol to share files and printers on a network. The current release of the SMB protocol is SMB 3; older versions include SMB 2 and a spin-off protocol called CIFS (Common Internet File System). SMB might use the following ports:
+	- **Ports 137 and 139.** SMB originally worked with NetBIOS (Network Basic Input/Output System), an older protocol used by Windows for network communication. To support legacy NetBIOS applications on a TCP/IP network, Windows offered NetBT (NetBIOS over TCP/IP). Earlier versions of SMB require NetBT to be enabled and use these ports:
+    
+	    - SMB over UDP uses ports 137 and 138. 
+	    - SMB over TCP uses ports 137 and 139.
+	    
+	- **Port 445.** Current versions of SMB and CIFS don’t require NetBT and use port 445.
+	
+- **Print server.** A print server manages network printers and makes them available to computers throughout the network. You learn more about print servers in the module “Supporting Printers.”
+
+- **DHCP server.** When a device first connects to a network, **its IP address can have already been manually assigned; this type of IP address is called a static IP address.** Alternately, **the device can request an IP address from a DHCP (Dynamic Host Configuration Protocol) server that assigns the address from a pool of addresses it maintains; this type of IP address is called a dynamic IP address.** **A device that requests an IP address and other information from a DHCP server is called a DHCP client.** It is said that the client is leasing an IP address. **A DHCP server that serves up IPv6 addresses is often called a DHCPv6 server.** DHCP uses the following ports:
+    
+    - **Port 67.** A DHCP server listens at port 67.
+        
+    - **Port 68.** A DHCP client receives messages on port 68.
+
+- **DNS server.** DNS servers are part of a client/server system that associates FQDNs such as _www.cengage.com_ with IP addresses. The process is called name resolution, and it begins when a DNS client, such as a laptop or workstation, makes a query to its DNS server. The server might turn to other DNS servers to find the IP address of a given domain name. A DNS server listens at port 53
+
+- **Proxy server.** A proxy server is a computer that intercepts requests that a client, such as a browser, makes of another server, such as a web server. The proxy server substitutes its own IP address for the request. It might also store, or cache, data that is used frequently by its clients. An example of using a proxy server is when an ISP caches webpages to speed up requests for the same pages. After it caches a page and another browser requests the same content, the proxy server can provide the content that it has cached. In addition, a proxy server sometimes acts as a router to the Internet, a firewall to protect the network, a filter for email, and to restrict Internet access by employees to prevent them from violating company policies. When functioning in these ways to give easy access to the Internet, a proxy server is known as an Internet appliance.

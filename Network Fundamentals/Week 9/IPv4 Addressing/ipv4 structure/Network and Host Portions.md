@@ -1,0 +1,16 @@
+- **An IPv4 address is a 32-bit hierarchical address that is made up of a network portion and a host portion**![[Screenshot 2025-10-11 at 17-22-33 Cisco Networking Academy NETWORK FUNDAMENTALS (CET1600C - Fall 2025).png]]
+- **The bits within the network portion of the address must be identical for all devices that reside in the same network**. The bits within the host portion of the address must be **unique** to identify a specific host within a network. If two hosts have the same bit-pattern in the specified network portion of the 32-bit stream, those two hosts will reside in the same network.
+	- This would result in IP conflict:
+		- **ARP Confusion on the LAN**
+		    - When Host A tries to communicate with another device, it sends an ARP request: “Who has this IP?”
+		    - Both hosts with the same IP respond, but only one MAC can be used at a time in the ARP cache.
+		    - Other devices on the LAN may randomly communicate with either host, causing unpredictable behavior. 
+		- **Network Communication Fails**
+		    - Packets intended for that IP may go to either host intermittently.
+		    - Services (like web servers, file sharing, or even pings) may fail or respond incorrectly.    
+		- **Operating System Alerts**
+		    - Most modern OSes detect IP conflicts and will display a warning like:  _“Another device on the network has the same IP address.”_
+		    - The OS may stop using that IP until it’s fixed.
+        
+		- **Routing Problems (for routers and gateways)**
+		    - If one of the conflicting IPs is a default gateway, the LAN can experience broader communication issues.
