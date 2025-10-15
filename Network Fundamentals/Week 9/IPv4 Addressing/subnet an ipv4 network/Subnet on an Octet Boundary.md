@@ -24,3 +24,12 @@ IPv4 subnets are created by using one or more of the host bits as network bits. 
 - ![[Pasted image 20251013190814.png]]
 
 Networks are most easily subnetted at the octet boundary of /8, /16, and /24. The table identifies these prefix lengths. Notice that using longer prefix lengths decreases the number of hosts per subnet.
+
+For each bit borrowed in the fourth octet, the number of subnetworks available is doubled, while reducing the number of host addresses per subnet:
+
+- **/25 row** - Borrowing 1 bit from the fourth octet creates 2 subnets supporting 126 hosts each.
+- **/26 row** - Borrowing 2 bits creates 4 subnets supporting 62 hosts each.
+- **/27 row** - Borrowing 3 bits creates 8 subnets supporting 30 hosts each.
+- **/28 row** - Borrowing 4 bits creates 16 subnets supporting 14 hosts each.
+- **/29 row** - Borrowing 5 bits creates 32 subnets supporting 6 hosts each.
+- **/30 row** - Borrowing 6 bits creates 64 subnets supporting 2 hosts each.
