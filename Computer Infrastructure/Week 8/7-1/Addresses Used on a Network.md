@@ -1,6 +1,7 @@
 
 Three commonly used numeric addresses on a network.
 
+
 **Port address (identifies an application)**
 - Each client or server application running on a computer is identified by a port address, also called a port or a port number.
 - For example, a web server receives communication from a browser at port 80 using the HTTP protocol for unsecured communication and at port 443 using the HTTPS protocol for secured communication.

@@ -1,0 +1,5 @@
+TCP (Transmission Control Protocol) guarantees message delivery.
+- TCP uses IP addresses to make a connection between a sending and destination host, sends the data, checks whether the data is received, and resends it if it is not. TCP is therefore called a connection-oriented protocol. TCP is used by applications such as web browsers (using HTTP and HTTPS protocols), email (using SMTP, POP3, and IMAP protocols), FTP file transfer apps (using FTP protocol), and SSH apps used to make secure connections to a server (using SSH protocol). Guaranteed delivery takes longer and is used when it is important to know that the data reached its destination. When a TCP message reaches its destination, an acknowledgment is sent back to the source
+
+UDP Provides Fast Transmissions
+- UDP (User Datagram Protocol) does not guarantee delivery by first establishing a connection or by checking whether data is received; thus, UDP is called a connectionless protocol or best-effort protocol and is used where guaranteed delivery is not as important as fast transmission. Here are some example uses of UDP:

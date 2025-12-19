@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network Fundamentals/Week 9/IPv4 Addressing/ipv4 unicast, broadcast and multicast/Broadcast.md",
+                "file": "Network Fundamentals/Week 10/Random Overview 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Broadcast"
+              "title": "Random Overview 2"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5
+    "width": 200
   },
   "right": {
     "id": "0e14aa1c9d2bc145",
@@ -171,6 +171,27 @@
   },
   "active": "17783e5df173bcb2",
   "lastOpenFiles": [
+    "Network Fundamentals/Week 10/Random Overview.md",
+    "Network Fundamentals/Week 10/Random Overview 2.md",
+    "Network Fundamentals/Week 10/IPv4 and IPv6 Coexistence.md",
+    "Network Fundamentals/Week 10/IPv6 Addressing Repersentation/Unicast, Multicast, Anycast.md",
+    "Network Fundamentals/Week 10/IPv6 Addressing Repersentation/Formatting - Simplified.md",
+    "Network Fundamentals/Week 10/IPv6 Address Types",
+    "Network Fundamentals/Week 10/IPv6 Addressing Repersentation/IPv6 Addressing Formats.md",
+    "Pasted image 20251102165034.png",
+    "Network Fundamentals/Week 10/IPv6 Addressing Repersentation",
+    "Network Fundamentals/Week 9/IPv4 Addressing/ipv4 structure/Determining the Network - Logical AND.md",
+    "Network Fundamentals/Week 9/IPv4 Addressing/ipv4 structure/Assignment of IP Addresses.md",
+    "Network Fundamentals/Week 11/Untitled.md",
+    "Network Fundamentals/Week 11",
+    "Computer Infrastructure/Week 8/7-1/Server Applications, Their Protocols and Ports.md",
+    "Network Fundamentals/Week 10",
+    "Computer Infrastructure/Week 8/7-1/TCP and UDP Delivery Methods.md",
+    "Computer Infrastructure/Week 8/7-1/TCP IP Model for Network Communication.md",
+    "Computer Infrastructure/Week 8/7-1/The OSI Model for Network Communication.md",
+    "Computer Infrastructure/Week 8/Host and Nodes.md",
+    "Computer Infrastructure/Week 8/7-1/Addresses Used on a Network.md",
+    "Network Fundamentals/Week 9/IPv4 Addressing/ipv4 unicast, broadcast and multicast/Broadcast.md",
     "Network Fundamentals/Week 8/Module 10 - Configure/Configure Router Interfaces/Configure Router Interfaces.md",
     "Network Fundamentals/Week 8/Module 10 - Configure/Configure Router Interfaces/Configure Router Interfaces Example.md",
     "Network Fundamentals/Week 8/Module 10 - Configure/Configure Router Interfaces/Verify Interface Configuration.md",
@@ -181,42 +202,21 @@
     "Network Fundamentals/Week 8/Module 10 - Configure/subnet a slash 16 and slash 8 prefix",
     "Network Fundamentals/Week 8/Module 10 - Configure/Configure Inner Router/Basic Router Configuration Steps.md",
     "Network Fundamentals/Week 9/IPv4 Addressing/subnet an ipv4 network/Subnet on an Octet Boundary.md",
-    "Pasted image 20251013190814.png",
+    "Course Images/Pasted image 20251013190814.png",
     "Network Fundamentals/Week 9/IPv4 Addressing/subnet an ipv4 network",
     "Network Fundamentals/Week 9/IPv4 Addressing/network segmentation/Reasons for Segmenting Networks.md",
-    "Network Fundamentals/Week 9/IPv4 Addressing/network segmentation/Problems with Large Broadcast Domains.md",
-    "Network Fundamentals/Week 9/IPv4 Addressing/network segmentation/Broadcast Domains and Segmentation.md",
-    "Network Fundamentals/Week 9/IPv4 Addressing/types of ipv4 addresses/Public and Private IPv4 Addresses.md",
     "Network Fundamentals/Week 9/IPv4 Addressing/network segmentation",
-    "Network Fundamentals/Week 9/IPv4 Addressing/types of ipv4 addresses/Legacy Classful Addressing.md",
-    "Network Fundamentals/Week 9/IPv4 Addressing/ipv4 structure/What is a subnet mask.md",
-    "Network Fundamentals/Week 9/IPv4 Addressing/ipv4 structure/Determining the Network - Logical AND.md",
-    "Network Fundamentals/Week 9/IPv4 Addressing/ipv4 structure/Network and Host Portions.md",
-    "Network Fundamentals/Week 9/IPv4 Addressing/ipv4 structure/Assignment of IP Addresses.md",
-    "Network Fundamentals/Week 9/IPv4 Addressing/types of ipv4 addresses/Routing to the Internet.md",
-    "Network Fundamentals/Week 9/IPv4 Addressing/ipv4 unicast, broadcast and multicast/Broadcast.md",
-    "Network Fundamentals/Week 9/IPv4 Addressing/ipv4 structure/The Subnet Mask.md",
-    "Network Fundamentals/Week 9/IPv4 Addressing/ipv4 structure/The Prefix Length.md",
-    "Network Fundamentals/Week 9/IPv4 Addressing/ipv4 structure/Network, Host, and Broadcast Addresses.md",
-    "Computer Infrastructure/Week 8/7-1/Server Applications, Their Protocols and Ports.md",
-    "Computer Infrastructure/Week 8/7-1/The OSI Model for Network Communication.md",
-    "Computer Infrastructure/Week 8/7-1/TCP IP Model for Network Communication.md",
     "Course Images/74161_ch07_08-t3.png",
     "Computer Infrastructure/Week 8/7-1/Untitled",
     "Course Images/Pasted image 20251011211530.png",
     "Network Fundamentals/Week 9/IPv4 Addressing/types of ipv4 addresses",
     "Network Fundamentals/Week 9/IPv4 Addressing/ipv4 unicast, broadcast and multicast",
-    "Network Fundamentals/Week 9/IPv4 Addressing/ipv4 structure",
     "Course Images/Pasted image 20251011192942.png",
     "Course Images/Screenshot 2025-10-11 at 19-05-18 Cisco Networking Academy NETWORK FUNDAMENTALS (CET1600C - Fall 2025).png",
     "Course Images/Screenshot 2025-10-11 at 19-04-45 Cisco Networking Academy NETWORK FUNDAMENTALS (CET1600C - Fall 2025).png",
     "Course Images/Screenshot 2025-10-11 at 17-22-33 Cisco Networking Academy NETWORK FUNDAMENTALS (CET1600C - Fall 2025).png",
-    "Network Fundamentals/Week 9/IPv4 Addressing",
-    "Network Fundamentals/Week 9",
-    "Computer Infrastructure/Week 8/7-1",
     "Course Images/Screenshot 2025-10-05 at 17-31-52 Cisco Networking Academy NETWORK FUNDAMENTALS (CET1600C - Fall 2025).png",
     "Course Images/Screenshot 2025-10-05 at 17-14-50 Cisco Networking Academy NETWORK FUNDAMENTALS (CET1600C - Fall 2025).png",
-    "Course Images/Screenshot 2025-09-30 at 18-59-17 Cisco Networking Academy NETWORK FUNDAMENTALS (CET1600C - Fall 2025).png",
     "Untitled.canvas"
   ]
 }
